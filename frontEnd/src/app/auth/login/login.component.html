@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="card mx-auto mt-5 col-8">
+        <div class="card-header">
+            <h1> Login</h1>
+        </div>
+        <div class="card-body p-5">
+            <form class="mx-auto ">
+                <div>
+                    <label class="form-label"> Email: </label>
+                    <input type="text" class="form-control mb-3" placeholder="email" formControlName="email" />
+                </div>
+                <div>
+                    <label class="form-label"> Password: </label>
+                    <input type="password" class="form-control mb-3" placeholder="password" formControlName="password" />
+                </div>
+            </form>
+            <div class="gap-3 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary"> Log </button>
+                <button class="btn btn-primary" routerLink="/welcome" routerLinkActive="active"> cancel</button>
+            </div>
+        </div>
+    </div>
+
+</div>
